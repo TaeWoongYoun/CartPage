@@ -1,11 +1,59 @@
 *{
-    box-sizing: border-box;
-}
-
-body{
     margin: 0%;
 }
 
-tr, td{
-    border: 1px black solid;
+body{
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+}
+
+h1{
+    margin-bottom: 2%;
+    margin-left: 16%;
+}
+
+.Ctable{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.Ctable td, .Ctable th{
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+.menu td{
+    text-align: center;
+}
+
+a{
+    float: left;
+    color: black;
+    float: left;
+    margin-top: 3%;
+}
+
+button{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: blue;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 7%;
+}
+
+.Box{
+    width: 29%;
+    display: inline-block;
+    margin-left: 18%;
 }

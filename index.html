@@ -8,44 +8,51 @@
 </head>
 <body>
     <main>
-        <div class="">
-            <h1>Your shopping cart</h1>
-        </div>
-        <div class="Table">
-            <table>
+        <h1>Your Shopping Cart</h1>
+        <table class="Ctable">
+            <thead>
                 <tr>
-                    <td colspan="4">1</td>
-                    <!-- <td></td>
-                    <td></td>
-                    <td></td> -->
+                    <th></th>
+                    <th>Item</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="menu">
+                    <td><img src="https://cdn-icons-png.flaticon.com/512/4977/4977731.png" alt="" width="50px"></td>
+                    <td>축구공</td>
+                    <td style="text-align: right;">1</td>
+                    <td style="text-align: right;">70,000</td>
+                    <td style="text-align: right;">70,000</td>
+                </tr>
+                <tr class="menu">
+                    <td><img src="https://cdn.pixabay.com/photo/2013/07/13/10/51/basketball-157926_1280.png" alt="" width="50px"></td>
+                    <td>농구공</td>
+                    <td style="text-align: right;">2</td>
+                    <td style="text-align: right;">50,000</td>
+                    <td style="text-align: right;">100,000</td>
+                </tr>
+                <tr class="menu">
+                    <td><img src="https://cdn.pixabay.com/photo/2016/07/21/11/54/bowling-ball-1532341_1280.png" alt="" width="70px"></td>
+                    <td>볼링공</td>
+                    <td style="text-align: right;">1</td>
+                    <td style="text-align: right;">100,000</td>
+                    <td style="text-align: right;">100,000</td>
                 </tr>
                 <tr>
-                    <td colspan="4">5</td>
-                    <!-- <td>6</td>
-                    <td>7</td>
-                    <td>8</td> -->
+                    <td colspan="5" style="text-align: right;">
+                        총가격 : 270,000  
+                    </td>
                 </tr>
-                <tr>
-                    <td colspan="4">9</td>
-                    <!-- <td>10</td>
-                    <td>11</td>
-                    <td>12</td> -->
-                </tr>
-                <tr>
-                    <td>13</td>
-                    <td>14</td>
-                    <td>15</td>
-                    <td>16</td>
-                </tr>
-            </table>
-        </div>
-        <div>
+            </tbody>
+        </table>
+        <div class="Box">
             <a href="#">Edit your shopping cart</a>
         </div>
-        <div>
-            <button>
-                Choose payment method
-            </button>
+        <div class="Box">
+            <button>Choose payment method</button>
         </div>
     </main>
 </body>
